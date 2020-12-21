@@ -66,3 +66,22 @@ form {
 .login__btn:hover {
   background-color: #3d3d3d;
 }
+
+@media screen and (max-width: 500px) {
+  .login__page {
+    flex-direction: column;
+  }
+
+  .login__container__info {
+    padding: 50px 0;
+  }
+
+  .login__container__form {
+    padding: 50px 0 100px 0;
+    border: none;
+  }
+
+  .login__btn {
+    width: 100%;
+  }
+}
