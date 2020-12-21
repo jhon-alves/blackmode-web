@@ -1,9 +1,3 @@
-@font-face {
-  font-family: 'Komikax';
-  src: url("../../fonts/KOMIKAX_.ttf");
-  font-size: 1em;
-}
-
 .header__position { 
   position: sticky;
   top: 0;
@@ -13,7 +7,7 @@
 
 .header {
   width: 100%;
-  background-color: #000;
+  background-color: rgb(10, 10, 10);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,10 +22,9 @@
 }
 
 .logo {
-  color: #fff;
-  font-family: 'Komikax';
-  margin: 0;
-  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  width: 100px;
 }
 
 .header__search {
@@ -39,7 +32,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #fff;
+  background-color: #1a1a1a;
   border-radius: 10px;
 }
 
@@ -54,11 +47,11 @@
 }
 
 .inp-search::placeholder {
-  color: #333;
+  color: #d1d5de;
 }
 
 .header__search > .MuiSvgIcon-root {
-  color: #333;
+  color: #d1d5de;
   padding: 0 20px;
   font-size: xx-large;
   cursor: pointer;
@@ -74,14 +67,14 @@
 }
 
 .nav-menu ul li ion-icon {
-  color: #fff;
+  color: #d1d5de;
   font-size: 30px;
   cursor: pointer;
 }
 
 .menu-category {
   width: 100%;
-  background-color: #000;
+  background-color: rgb(10, 10, 10);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -102,7 +95,7 @@
 }
 
 .menu-category ul li a {
-  color: #f1f1f1;
+  color: #d1d5de;
   text-decoration: none;
   transition: all .5s ease-out;
   padding: 7px 30px 10px;
@@ -158,10 +151,7 @@
   }
 
   .logo-mobile {
-    text-align: center;
-    color: #fff;
-    font-family: 'Komikax';
-    margin: 0;
+    width: 90px;
   }
 
   .menu__mobile > .MuiSvgIcon-root {

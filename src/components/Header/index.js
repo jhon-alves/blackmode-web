@@ -19,11 +19,13 @@ function Header() {
             <div className="icon__menu" onClick={handleClick}>
               <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
             </div>
-            <h1 className="logo-mobile">Black Mode</h1>
+            <Link to='/'>
+              <img className="logo-mobile" src="/images/logo.svg" alt="logotipo"/>
+            </Link>
             <LocalMall className="icon__bag" />
           </div>
-          <Link to='/' className="logo">
-            <h1>Black Mode</h1>
+          <Link to='/'>
+            <img className="logo" src="/images/logo.svg" alt="logotipo"/>
           </Link>
           <div className="header__search">
             <input type="text" className="inp-search" placeholder="O que você está buscando?"/>
