@@ -1,0 +1,58 @@
+.login__page {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 50px 0;
+}
+
+.login__page > h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+.login__page > p {
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.login__input {
+  width: 400px;
+  padding: 15px 20px;
+  border: 2px solid #000;
+  outline-width: 0;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.login__input::placeholder {
+  font-size: 16px;
+}
+
+.login__btn {
+  width: 200px;
+  background-color: #000;
+  color: #fff;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 10px;
+  outline-width: 0;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all .5s ease-out;
+  font-weight: bold;
+}
+
+.login__btn:hover {
+  background-color: #fcc239;
+  color: #000;
+}

@@ -1,0 +1,21 @@
+.sidebar__filter {
+  display: flex;
+  flex: 0.1;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.sidebar__filter__items {
+  padding: 0;
+}
+
+.sidebar__filter__items li {
+  list-style: none;
+  padding-bottom: 3px;
+}
+
+@media screen and (max-width: 500px) {
+  .sidebar__filter {
+    display: none;
+  }
+}

@@ -1,0 +1,65 @@
+.informative {
+  background-color: #e4e4e4;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container-informative {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.container-informative ul {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 0;
+}
+
+.container-informative ul li {
+  list-style: none;
+}
+
+.container-informative ul li ion-icon {
+  color: #333;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
+}
+
+.frete, .entrega, .cartao {
+  width: 100%;
+  color: #333;
+}
+
+h4 {
+  margin: 0;
+  color: #333;
+}
+
+p {
+  margin-top: 0;
+  color: #333;
+}
+
+@media screen and (max-width: 500px) {
+  .container-informative {
+    width: 100%;
+  }
+
+  .container-informative ul {
+    flex-direction: column;
+  }
+
+  .container-informative ul li {
+    padding-bottom: 20px;
+  }
+}

@@ -1,0 +1,231 @@
+@font-face {
+  font-family: 'Komikax';
+  src: url("../../fonts/KOMIKAX_.ttf");
+  font-size: 1em;
+}
+
+.header__position { 
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.header {
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.k-header {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 40px;
+}
+
+.logo {
+  color: #fff;
+  font-family: 'Komikax';
+  margin: 0;
+  text-decoration: none;
+}
+
+.header__search {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.inp-search {
+  width: 100%;
+  background-color: transparent;
+  padding: 15px;
+  border-radius: 10px;
+  border: 0;
+  font-size: 15px;
+  outline-width: 0;
+}
+
+.inp-search::placeholder {
+  color: #333;
+}
+
+.header__search > .MuiSvgIcon-root {
+  color: #333;
+  padding: 0 20px;
+  font-size: xx-large;
+  cursor: pointer;
+}
+
+.nav-menu ul {
+  padding: 0;
+}
+
+.nav-menu ul li {
+  display: inline;
+  list-style: none;
+}
+
+.nav-menu ul li ion-icon {
+  color: #fff;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.menu-category {
+  width: 100%;
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top: 1px solid #999;
+}
+
+.menu-category ul {
+  max-width: 1200px;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.menu-category ul li {
+  list-style: none;
+}
+
+.menu-category ul li a {
+  color: #f1f1f1;
+  text-decoration: none;
+  transition: all .5s ease-out;
+  padding: 7px 30px 10px;
+}
+
+.menu-category ul li a:hover {
+  background-color: #333;
+  padding: 7px 30px 10px;
+  border-radius: 10px;
+}
+
+.icon__bag {
+  padding-left: 50px;
+}
+
+/* Mobile */
+.menu__mobile {
+  display: none;
+}
+.menu__mobile > .MuiSvgIcon-root {
+  color: #f1f1f1;
+  font-size: xxx-large;
+}
+
+.icon__bag {
+  cursor: pointer;
+}
+
+.fa-bars {
+  color: #fff;
+}
+
+.fa-times {
+  color: #fff;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 500px) {
+  .menu__mobile {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .logo-mobile {
+    text-align: center;
+    color: #fff;
+    font-family: 'Komikax';
+    margin: 0;
+  }
+
+  .menu__mobile > .MuiSvgIcon-root {
+    padding: 0;
+  }
+
+  .k-header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .header__search {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .inp-search {
+    padding: 10px;
+  }
+
+  .icon__menu {
+    cursor: pointer;
+    color: #fff;
+    font-size: 1.8rem;
+  }
+
+  .menu-category {
+    width: 85%;
+    height: 90vh;
+    position: absolute;
+    top: 60px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+    border: none;
+  }
+
+  .menu-category.active {
+    background: #000;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+
+  .menu-category ul {
+    width: 100%;
+    display: flex;
+    align-self: flex-start;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .menu-category ul li a {
+    padding: 25px 0;
+    text-align: center;
+    display: table;
+    font-weight: 600;
+  }
+
+  .menu-category ul li a:hover {
+    padding: 25px 0;
+    background-color: transparent;
+  }
+}
