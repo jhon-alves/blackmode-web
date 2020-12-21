@@ -20,9 +20,11 @@
   flex-direction: column;
   margin-bottom: 50px;
 }
+
 .first {
   padding-top: 50px;
 }
+
 .title-destaques {
   margin-top: 0;
   padding-bottom: 30px;
@@ -78,7 +80,18 @@
 @media screen and (max-width: 500px) {
   .container {
     flex-direction: column;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .title-destaques {
+    font-size: 32px;
+  }
+
+  .name-product {
+    font-size: 14px;
+  }
+  
+  .pryce {
+    font-size: 23px;
   }
 }
