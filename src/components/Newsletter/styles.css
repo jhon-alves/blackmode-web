@@ -17,12 +17,12 @@
 
 .container-news h1 {
   color: #f1f1f1;
-  margin-top: 0;
+  padding-bottom: 15px;
 }
 
 .container-news p {
   color: #f1f1f1;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .inp-news {
@@ -31,25 +31,27 @@
   border-radius: 5px;
   border: none;
   margin-right: 10px;
-  color: #999;
+  color: #333;
   font-size: 15px;
   outline-width: 0;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .btn-news {
   border: none;
   border-radius: 5px;
   padding: 15px 25px;
-  background: #ffd369;
-  color: #1b1b1b;
-  font-weight: bold;
+  background: #333;
+  color: #fff;
   font-size: 15px;
+  font-weight: 500;
   transition: all .6s;
   cursor: pointer;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .btn-news:hover{
-  background: #fcc239;
+  background: #1a1a1a;
 }
 
 @media screen and (max-width: 500px) {

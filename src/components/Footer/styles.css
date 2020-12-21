@@ -41,7 +41,7 @@
 }
 
 .footer-link-items > a:hover {
-  color: #fcc239;
+  color: #636363;
 }
 
 .icon__edit > .MuiSvgIcon-root {
@@ -58,7 +58,7 @@
 }
 
 .list__social > .MuiSvgIcon-root:hover {
-  color: #fcc239;
+  color: #636363;
 }
 
 .copy {
@@ -80,7 +80,7 @@
 .copy p {
   color: #fff;
   margin: 0;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .copy span {
