@@ -8,7 +8,7 @@ function TshirtItem() {
     <div className="tshirt__item">
       <div className="tshirt__item__container">
         <div className="tshirt__item__left">
-          <img src="/images/camiseta01.png" />
+          <img src="/images/camiseta01.png" alt="Camiseta Regular Black" />
 
           <div className="icons__button">
             <ArrowBack className="btn__icon__prev btn__icon" />
