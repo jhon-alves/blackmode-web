@@ -1,0 +1,13 @@
+.whatsapp {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+
+.whatsapp > img {
+  width: 45px;
+}

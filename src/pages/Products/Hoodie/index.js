@@ -1,12 +1,14 @@
 import React from 'react';
 import './styles.css';
 
+import Whatsapp from '../../../components/Whatsapp';
 import SidebarFilter from '../../../components/SidebarFilter';
 
 function Hoodie() {
   return (
     <div className="hoodie__page">
-    <SidebarFilter />
+      <Whatsapp />
+      <SidebarFilter />
       
       <div className="hoodie__container">
         <div className="hoodie__items">

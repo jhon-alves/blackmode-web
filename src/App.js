@@ -8,9 +8,11 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Login from './pages/Login';
 import Tshirt from './pages/Products/Tshirt';
+import TshirtItem from './pages/Products/TshirtItem';
 import Hoodie from './pages/Products/Hoodie';
 import Jacket from './pages/Products/Jacket';
 import Pants from './pages/Products/Pants';
+import Accessories from './pages/Products/Accessories';
 import Exchanges from './pages/Exchanges';
 import Questions from './pages/Questions';
 
@@ -23,9 +25,11 @@ function App() {
           <Route path='/' exact component={Home} />
           <Route path='/login' component={Login} />
           <Route path='/camisetas' component={Tshirt} />
+          <Route path='/camiseta-regular' component={TshirtItem} />
           <Route path='/moletons' component={Hoodie} />
           <Route path='/jaquetas' component={Jacket} />
           <Route path='/calcas' component={Pants} />
+          <Route path='/acessorios' component={Accessories} />
           <Route path='/troca-e-devolucoes' component={Exchanges} />
           <Route path='/perguntas-frequentes' component={Questions} />
         </Switch>

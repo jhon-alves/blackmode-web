@@ -1,0 +1,17 @@
+.button__buy {
+  width: 80%;
+  background-color: #000;
+  border-radius: 20px;
+  margin: 10px 0;
+  padding: 10px 0;
+  transition: all .3s ease-out;
+}
+
+.button__buy:hover {
+  background: #999;
+}
+
+.button__buy > p {
+  font-size: 17px;
+  color: #fff;
+}

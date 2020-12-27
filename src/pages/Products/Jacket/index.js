@@ -1,11 +1,13 @@
 import React from 'react';
 import './styles.css';
 
+import Whatsapp from '../../../components/Whatsapp';
 import SidebarFilter from '../../../components/SidebarFilter';
 
 function Jacket() {
   return (
     <div className="jacket__page">
+      <Whatsapp />
       <SidebarFilter />
 
       <div className="jacket__container">
