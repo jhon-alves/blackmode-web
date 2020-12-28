@@ -31,8 +31,7 @@
 }
 
 .pants__items > img {
-  padding-top: 20px;
-  width: 80%;
+  width: 100%;
 }
 
 @media screen and (max-width: 500px) {
@@ -41,7 +40,8 @@
   }
 
   .pants__container {
-    padding: 0 20px;
+    width: 99%;
     grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
   }
 }
