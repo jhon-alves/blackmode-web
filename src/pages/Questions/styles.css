@@ -1,7 +1,7 @@
 .questions {
   background-color: #fff;
   width: 100%;
-  padding: 40px 0;
+  padding: 70px 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17,11 +17,15 @@
 .questions__container > h1 {
   color: #000;
   text-align: center;
-  
+  padding-bottom: 30px;
 }
 
 .questions__container > h4 {
-  padding-bottom: 5px;
+  padding:  20px 0 5px 0;
+}
+
+.questions__container > p {
+  line-height: 1.5;
 }
 
 @media screen and (max-width: 700px) {

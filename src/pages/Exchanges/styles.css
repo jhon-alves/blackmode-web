@@ -1,7 +1,7 @@
 .exchange {
   background-color: #fff;
   width: 100%;
-  padding: 40px 0;
+  padding: 70px 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,16 +12,21 @@
   max-width: 1000px;
   justify-content: center;
   padding: 0 150px;
+  line-height: 1.6;
 }
 
 .exchange__container > h1 {
   color: #000;
   text-align: center;
-  
+  padding-bottom: 30px;
 }
 
 .exchange__container > h4 {
   padding-bottom: 15px;
+}
+
+.exchange__container > p {
+  padding-bottom: 10px;
 }
 
 @media screen and (max-width: 700px) {
