@@ -1,6 +1,7 @@
 .jacket__page {
   width: 100%;
   display: flex;
+  justify-content: center;
 }
 
 .jacket__container {
@@ -40,7 +41,7 @@
   }
 
   .jacket__container {
-    width: 99%;
+    width: 96%;
     grid-template-columns: 1fr 1fr;
     column-gap: 10px;
   }
