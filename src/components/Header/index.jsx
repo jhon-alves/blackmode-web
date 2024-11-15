@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 
 import { Search, LocalMall } from '@material-ui/icons';
 
+import logo from '../../assets/images/logo.svg';
+
 function Header() {
 
   const [click, setClick] = useState(false);
@@ -20,12 +22,12 @@ function Header() {
               <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
             </div>
             <Link to='/'>
-              <img className="logo-mobile" src="/images/logo.svg" alt="logotipo"/>
+              <img className="logo-mobile" src={logo} alt="logotipo"/>
             </Link>
             <LocalMall className="icon__bag" />
           </div>
           <Link to='/'>
-            <img className="logo" src="/images/logo.svg" alt="logotipo"/>
+            <img className="logo" src={logo} alt="logotipo"/>
           </Link>
           <div className="header__search">
             <input type="text" className="inp-search" placeholder="O que você está buscando?"/>

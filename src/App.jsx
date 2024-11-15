@@ -18,7 +18,6 @@ import Questions from './pages/Questions';
 
 function App() {
   return (
-    <>
     <Router>
         <Header />
         <Switch>
@@ -36,7 +35,6 @@ function App() {
         <Newsletter />
         <Footer />
       </Router>
-    </>
   );
 }
 

@@ -2,13 +2,11 @@ import React from 'react';
 import './styles.css';
 import { Link } from  'react-router-dom';
 
-import Whatsapp from '../../../components/Whatsapp';
 import SidebarFilter from '../../../components/SidebarFilter';
 
 function Tshirt() {
   return (
     <div className="tshirt__page">
-      <Whatsapp />
       <SidebarFilter />
 
       <div className="tshirt__container">
